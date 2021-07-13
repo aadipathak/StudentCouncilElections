@@ -1,0 +1,61 @@
+h1{
+    color:black;
+    margin-left: 30px;
+}
+h2{
+    font-family: Arial;
+}
+*{
+    
+    font-family: Cambria;
+}
+.Heading{
+    background-color:aqua;
+    display:flex;
+    justify-content :space-between
+}
+.Games{
+      display:flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+}
+.Image{
+    display:flex;
+    justify-content: flex-end;
+}
+.A{
+    text-align: center;
+}
+body{background-color:#d1ddeb;}
+
+.Heading h1{
+    border:solid;
+}
+a:link{ 
+    color: blue;
+}
+a:visited{
+    color:peru;
+}
+.Menu{
+    margin-right: 30px;
+}
+.Menu a{
+    margin-left: 10px ;
+}
+.B{
+    position:relative;
+}
+.B p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.B:hover p{
+    opacity:1;
+}
+.B:hover img{
+    opacity:0.5;
+}
